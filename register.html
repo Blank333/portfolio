@@ -1,0 +1,56 @@
+<html lang="en">
+    <head>
+
+        <title>Registeration Form</title>
+        
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="description">
+        <meta content="" name="keywords">
+      
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        
+        <!-- Main CSS File -->
+        <link href="assets/css/style.css" rel="stylesheet">   
+
+        <!-- External CSS Files -->
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    </head>
+    
+<body class="register-body">
+
+    <div class="register-container col-lg-7 mt-5 mt-lg-0 d-flex justify-content-center">
+        <form class="form-signin" method="post" action="forms/register.php">
+            <h2 class="form-signin-heading">User Registration Form</h2>
+            <div id="error">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" name="username" id="user_name" />
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email address" name="email" id="user_email" />
+                <span id="check-e"></span>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" name="password" id="password" />
+            </div>
+                <div class="form-group">
+                <input type="password" class="form-control" placeholder="Retype Password" name="cpassword" id="cpassword" />
+            </div>
+            <br />
+            <div class="form-group">
+                <button type="submit" class="btn btn-info" name="btn-save" id="btn-submit">Create Account</button> 
+            </div>  
+        </form>
+    </div>
+
+    <!-- External JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+
+</body>
+</html>
+    
